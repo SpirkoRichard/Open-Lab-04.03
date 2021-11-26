@@ -6,7 +6,11 @@ namespace Open_Lab_04._03
     {
         public string RemoveFirstLast(string original)
         {
-            throw new NotImplementedException();
+
+            original = original.Substring(1);
+            original = original.Substring(0, original.Length - 1);
+            return original;
         }
+        
     }
 }
